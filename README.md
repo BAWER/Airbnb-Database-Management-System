@@ -49,8 +49,8 @@ USE airbnb;
 ```
 2. Click the ⚡ Execute (Lightning Bolt) button
 3. Check the Action Output panel to confirm:
-_ All 23 tables created
-_ No errors
+- All 23 tables created
+- No errors
 
 ### Step 5: Verify the Installation
 
@@ -64,5 +64,5 @@ SELECT * FROM booking;
 This will display booking records and confirm successful data insertion.
 
 ### Notes
-_ The script automatically resets the database before installation
-_ Make sure you have proper permissions to create databases
+- The script automatically resets the database before installation
+- Make sure you have proper permissions to create databases
