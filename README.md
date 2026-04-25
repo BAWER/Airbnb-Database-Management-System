@@ -16,21 +16,14 @@ To run this database, you need:
 
 ## 2. Setup Instructions
 
-### Step 1: Extract the Files
-1. Download the provided final `.zip` submission folder  
-2. Extract the contents to a known location on your computer  
-3. Locate the master SQL script file:
 
-
----
-
-### Step 2: Open the Database Client
+### Step 1: Open the Database Client
 1. Launch **MySQL Workbench**  
 2. Connect to your MySQL Server using root/admin credentials  
 
 ---
 
-### Step 3: Load the SQL Script
+### Step 2: Load the SQL Script
 1. In the top menu, click:  
 **File > Open SQL Script...**  
 2. Navigate to the extracted folder  
@@ -40,7 +33,7 @@ master.sql
 ```
 4. The script will open in a new query tab
 
-### Step 4: Execute the Script
+### Step 3: Execute the Script
 1. The script is self-contained and includes:
 ```bash
 DROP DATABASE IF EXISTS airbnb;
@@ -52,7 +45,7 @@ USE airbnb;
 - All 23 tables created
 - No errors
 
-### Step 5: Verify the Installation
+### Step 4: Verify the Installation
 
 1. In the Schemas panel (left side), click refresh
 2. Expand the newly created: airbnb
